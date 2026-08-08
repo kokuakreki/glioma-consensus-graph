@@ -1,0 +1,9 @@
+GDC TCGA-GBM | https://portal.gdc.cancer.gov/projects/TCGA-GBM
+GDC TCGA-LGG | https://portal.gdc.cancer.gov/projects/TCGA-LGG
+CGGA | https://www.cgga.org.cn/download.jsp
+GLASS | https://www.synapse.org/Synapse:syn17038081
+GEO GSE108476 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108476
+Ivy GAP | https://glioblastoma.alleninstitute.org/
+CPTAC-3 | https://proteomic.datacommons.cancer.gov/pdc/
+GEO GSE182109 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182109
+

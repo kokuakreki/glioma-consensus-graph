@@ -1,0 +1,35 @@
+seed: 11
+model:
+  input_dim: 128
+  hidden_dim: 256
+  projection_dim: 24
+  consensus_rank: 14
+  relation_count: 7
+  modality_count: 5
+  layers: 4
+  heads: 8
+  router_floor: 0.01
+operator:
+  tolerance: 0.02
+  membership_quantile: 0.95
+  permutations: 1000
+  environments: 12
+training:
+  batch_size: 32
+  epochs: 200
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  warmup_epochs: 10
+  gradient_clip: 1.0
+  precision: fp32
+  optimizer: adamw
+  scheduler: cosine
+data:
+  workers: 4
+  minimum_modalities: 1
+  edge_threshold: 0.05
+evaluation:
+  seeds: [11, 23, 47, 89, 101]
+  bootstrap_replicates: 2000
+  abstention_threshold: 0.12
+
